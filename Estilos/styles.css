@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nanum+Gothic&family=Open+Sans+Condensed:wght@300&family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
+
+html {
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+
+body{
+    margin: 0px;
+    /* background-image: url("../imagens/pessoal.jpg"); */
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Nanum Gothic', sans-serif;
+  
+}
+
+header{
+   
+    color: darkkhaki;
+    text-shadow: 8px 10px 5px #0F2027;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto-direita h1{
+
+    font-weight: bold;
+}
+
+.texto-direita p {
+
+    
+    border: 0.1px solid darkkhaki;
+    border-radius: 60px;
+    box-shadow:8px 10px 5px #0F2027;
+    text-align: center;
+}
+
+nav ul{
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.menu li{
+    
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.menu li a{
+text-decoration: none;
+color: darkkhaki;
+transition: 300ms;
+}
+
+.menu li a:hover{
+
+    color: cyan
+}
+
+.container-principal{
+
+    display: flex;
+    color: darkkhaki;
+    margin-top: 100px;
+    /* padding: 200px; */
+    justify-content: center;
+    
+}
+
+.container-principal p {
+
+    font-weight: bolder;
+}
+
+.texto-principal{
+    
+    text-align: justify;
+            
+}
+
+.texto-principal p{
+
+    
+    margin: 0px;
+    width: 450px;
+
+}
+
+/* icontes de tecnologia */
+
+.tecno {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.html {
+
+    font-size: 100px;
+    color: red;
+    text-shadow: 8px 10px 5px #0F2027;
+}
+
+.css {
+
+    font-size: 100px;
+    color: blue;
+    text-shadow: 8px 10px 5px #0F2027;;
+
+}
+
+.js{
+    font-size: 100px;
+    color: yellow;
+    text-shadow: 8px 10px 5px #0F2027;
+
+}
+
+
+
+
+/* aqui comeca o rodape */
+
+.ajuste-rodape {
+
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px;
+}
+.rodape i{
+    
+    color: darkkhaki;
+    font-size: 30px;
+    box-shadow: 8px 10px 5px #0F2027;
+    
+
+}
+
+.rodape i:hover{
+
+    font-size: 32px;
+}
+
+@media only screen and (max-width: 360px) {
+
+    .texto-principal p{
+
+        font-size: 15px;
+        width: 270px;
+        margin-left: -20px;
+    }
+
+    .texto-direita h1 {
+
+        font-size: 25px;
+        margin-left: -10px;
+    }
+
+    .texto-direita p {
+
+        margin-left: 80px;
+        color:cyan ;
+
+    }
+    .menu {
+        /* margin: 0px; */
+        padding: 0px;
+        margin-left: -50px;
+    }
+
+    .menu li{
+
+       font-size: 20px;
+       margin-left: 0px;
+    }
+
+    
+}
